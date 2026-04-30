@@ -1,0 +1,10 @@
+[package]
+name = "kaloron"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = { workspace = true }
+blake3 = { workspace = true }
+seq-macro = { workspace = true }
+kaloron-macro = { workspace = true }

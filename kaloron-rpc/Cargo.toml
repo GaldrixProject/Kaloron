@@ -1,0 +1,23 @@
+[package]
+name = "kaloron-rpc"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+tokio = { workspace = true, features = ["macros", "net", "rt", "sync"] }
+anyhow = { workspace = true }
+blake3 = { workspace = true }
+bytes = { workspace = true }
+hyper = { workspace = true, features = ["client", "http1", "http2", "server"] }
+http-body-util = { workspace = true }
+typeid = { workspace = true }
+futures-util = { workspace = true, features = ["alloc", "std"], version = "1.0.0" }
+kaloron = { workspace = true }
+kaloron-codec = { workspace = true }
+kaloron-rpc-macro = { workspace = true }
+hyper-util = { workspace = true, features = ["tokio"] }
+rustls = { workspace = true }
+tokio-rustls = { workspace = true }
+
+[dev-dependencies]
+tokio = { workspace = true, features = ["macros", "net", "rt-multi-thread", "sync"] }
