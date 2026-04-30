@@ -1,6 +1,8 @@
 [package]
 name = "kaloron"
-version = "0.1.0"
+version = "0.0.1"
+description = "Schema-driven binary serialization framework with versioning"
+license = "MIT"
 edition = "2024"
 
 [dependencies]

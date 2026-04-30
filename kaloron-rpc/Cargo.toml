@@ -1,6 +1,8 @@
 [package]
 name = "kaloron-rpc"
-version = "0.1.0"
+version = "0.0.1"
+description = "RPC framework built on kaloron serialization"
+license = "MIT"
 edition = "2024"
 
 [dependencies]

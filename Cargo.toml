@@ -30,8 +30,8 @@ syn = { version = "2.0", features = ["full"] }
 seq-macro = "0.3"
 
 # --- Local workspace crates -----------------------------------------------
-kaloron = { path = "kaloron" }
-kaloron-codec = { path = "kaloron-codec" }
-kaloron-macro = { path = "kaloron-macro" }
-kaloron-rpc = { path = "kaloron-rpc" }
-kaloron-rpc-macro = { path = "kaloron-rpc-macro" }
+kaloron = { path = "kaloron", version = "0.0.1" }
+kaloron-codec = { path = "kaloron-codec", version = "0.0.1" }
+kaloron-macro = { path = "kaloron-macro", version = "0.0.1" }
+kaloron-rpc = { path = "kaloron-rpc", version = "0.0.1" }
+kaloron-rpc-macro = { path = "kaloron-rpc-macro", version = "0.0.1" }

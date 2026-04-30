@@ -1,6 +1,8 @@
 [package]
 name = "kaloron-codec"
-version = "0.1.0"
+version = "0.0.1"
+description = "Text and binary codec implementations for kaloron"
+license = "MIT"
 edition = "2024"
 
 [dependencies]
